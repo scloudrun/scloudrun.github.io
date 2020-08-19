@@ -1,0 +1,17 @@
+# Site settings
+title: ScloudRun
+baseurl: ""
+url: "https://scloudrun.github.io"
+
+# Build settings
+kramdown:
+  input: GFM
+permalink: pretty
+
+# Third-party services
+google_analytics: 
+disqus_shortname: 
+
+# Utils
+mathjax: true
+sponsor: true
