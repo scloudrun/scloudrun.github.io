@@ -1,49 +1,121 @@
----
-layout: default
----
-<div class="home">
-  <section>
-    <h2 class="smallcap">about</h2>
-    <ul>
-      <li>ScloudRun</li>
-      <li>
-        <div>Experiences</div>
-        <ul>
-        </ul>
-      </li>
-      <li>
-        <div>Contact</div>
-        <ul>
-          <li>github <a href="https://github.com/scloudrun">@scloudrun</a></li>
-          <li>scloudrun(at)gmail.com</li>
-        </ul>
-      </li>
-    </ul>
-  </section>
-  <section>
-    <h2 class="smallcap">posts</h2>
-    <ul class="post-list">
-      {% for post in site.posts limit:2 %}
-      <li>
-        <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %d, %Y" }}</time>
-        <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-      </li>
-      {% endfor %}
-    </ul>
-    <p><a href="{{ "/archives/" | prepend: site.baseurl }}">view more...</a></p>
-  </section>
-  <section>
-    <h2 class="smallcap">projects</h2>
-    <ul class="post-list">
-      <li>
-        <a href="https://scloudrun.github.io/k8s-note/" target="_blank">k8s-note</a>
-        <div>Notes of cloud native technologies, including but not limited to kubernetes.</div>
-      </li>
-      <li>
-        <a href="https://scloudrun.github.io/prophet" target="_blank">Prophet</a>
-        <div>A beautiful dashboard system based on Vue and iView.</div>
-      </li>
-    </ul>
-    <p><a href="https://github.com/scloudrun?tab=repositories">view more...</a></p>
-  </section>
-</div>
+<!DOCTYPE html>
+<html lang="en-us">
+    <meta charset="utf-8"><script type="application/ld+json">
+    {
+        "@context" : "http://schema.org",
+        "@type" : "BlogPosting",
+        "mainEntityOfPage": {
+             "@type": "WebPage",
+             "@id": "http:\/\/example.org\/"
+        },
+        "articleSection" : "",
+        "name" : "Slcoudrun\x27s Blog",
+        "headline" : "Slcoudrun\x27s Blog",
+        "description" : "注释",
+        "inLanguage" : "en",
+        "author" : "",
+        "creator" : "",
+        "publisher": "",
+        "accountablePerson" : "",
+        "copyrightHolder" : "",
+        "copyrightYear" : "0001",
+        "datePublished": "0001-01-01T00:00:00Z",
+        "dateModified" : "0001-01-01T00:00:00Z",
+        "url" : "\/",
+        "wordCount" : "0",
+        "keywords" : [ "Blog" ]
+    }
+</script>
+<title>Slcoudrun&#39;s Blog</title><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="description" content="">
+<meta name="author" content="">
+<link rel="icon" href="/favicon.ico">
+
+
+
+<meta itemprop="name" content="Slcoudrun&#39;s Blog">
+<meta itemprop="description" content="注释">
+
+
+<meta property="og:title" content="Slcoudrun&#39;s Blog" />
+<meta property="og:description" content="注释" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="http://example.org/" />
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Slcoudrun&#39;s Blog"/>
+<meta name="twitter:description" content="注释"/>
+
+
+<link rel="alternate" href="http://example.org/index.xml" type="application/rss+xml" title="Slcoudrun&#39;s Blog"/>
+
+
+
+
+
+<link rel="stylesheet" href="/css/vendor.min.2232ef801479862a07838a42e4755d113b2194f1699e60f805e5c863439d1242.css" integrity="sha256-IjLvgBR5hioHg4pC5HVdETshlPFpnmD4BeXIY0OdEkI=">    
+<body class="text-center">
+        <main role="main" class="container">
+
+<h1 class="welcomeText">Welcome</h1>
+
+
+    
+        
+    
+        
+    
+        
+            <form id="search-form-Baidu" class="mb-3" action="https://www.baidu.com/" method="get">
+                <input id="search-bar-Baidu" class="form-control" type="text" autofocus type="text" placeholder="Search Baidu" name="q" alt="Search Baidu" onkeydown="if(event.keyCode === 13) { this.form.submit(); return false; }">
+            </form>
+        
+    
+
+
+
+    <div id="groupList" class="card-deck mt-3">
+        
+            <div id="groupListEntry" class="card">
+                <div class="card-body">
+                    <h5 class="card-title groupTitle">Global Net</h5>                        
+                    <ul class="list-group list-group-flush groupListList">
+                        
+                            <li class="list-group-item groupListListItem"><a href="https://www.reddit.com" target="_self" class="groupLink"><i class="fab fa-reddit"></i>&nbsp;<span class="groupText">reddit</span></a></li>
+                        
+                            <li class="list-group-item groupListListItem"><a href="https://www.facebook.com" target="_self" class="groupLink"><i class="fab fa-facebook"></i>&nbsp;<span class="groupText">Facebook</span></a></li>
+                        
+                            <li class="list-group-item groupListListItem"><a href="https://www.apple.com" target="_self" class="groupLink"><i class="fab fa-apple"></i>&nbsp;<span class="groupText">Apple</span></a></li>
+                        
+                    </ul>
+                </div>
+            </div>
+        
+            <div id="groupListEntry" class="card">
+                <div class="card-body">
+                    <h5 class="card-title groupTitle">Global Res</h5>                        
+                    <ul class="list-group list-group-flush groupListList">
+                        
+                            <li class="list-group-item groupListListItem"><a href="https://www.github.com" target="_self" class="groupLink"><i class="fab fa-github"></i>&nbsp;<span class="groupText">GitHub</span></a></li>
+                        
+                            <li class="list-group-item groupListListItem"><a href="https://www.twitter.com" target="_self" class="groupLink"><i class="fab fa-twitter"></i>&nbsp;<span class="groupText">Twitter</span></a></li>
+                        
+                            <li class="list-group-item groupListListItem"><a href="https://scloudrun.github.io/go-pkgs/" target="_self" class="groupLink"><i class="fas fa-paw"></i>&nbsp;<span class="groupText">GoPkgs</span></a></li>
+                        
+                    </ul>
+                </div>
+            </div>
+        
+    </div>
+
+
+
+        </main>
+
+
+<script src="/js/vendor.min.7a425e24660f0fb21b9ca8a7541765fbfec83c9f37f07c77f7faffd3699237e2.js"></script>
+
+
+</body>
+</html>
